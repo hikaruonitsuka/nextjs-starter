@@ -1,6 +1,8 @@
 import type { Config } from 'tailwindcss';
 
 const config = {
+  mode: 'jit',
+  purge: ['./src/**/*.{js,jsx,ts,tsx}'],
   darkMode: ['class'],
   content: ['./pages/**/*.{ts,tsx}', './components/**/*.{ts,tsx}', './app/**/*.{ts,tsx}', './src/**/*.{ts,tsx}'],
   prefix: '',
